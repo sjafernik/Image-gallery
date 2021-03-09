@@ -1,0 +1,21 @@
+body {
+  padding: 30px;
+  background-image: url('images/wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.gallery {
+  margin-left: 80px;
+}
+
+.gallery img {
+  transition: 1s;
+  padding: 15px;
+}
+
+.gallery img:hover {
+  filter: grayscale(100%);
+  transform: scale(1.1);
+}
