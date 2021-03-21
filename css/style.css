@@ -10,12 +10,16 @@ body {
   margin-left: 80px;
 }
 
+
 .gallery img {
   transition: 1s;
   padding: 15px;
+  -webkit-box-shadow: 10px 14px 50px 11px rgba(255,255,255,0.67), 10px 14px 27px 15px rgba(235,192,255,0.38), 10px 14px 27px 15px rgba(235,192,255,0.38); 
+  box-shadow: 10px 14px 50px 11px rgba(255,255,255,0.67), 10px 14px 27px 15px rgba(235,192,255,0.38), 10px 14px 27px 15px rgba(235,192,255,0.38);
 }
 
 .gallery img:hover {
   filter: grayscale(100%);
   transform: scale(1.1);
+  
 }
